@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>Asal Sayı Bilmecesi</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='index.css' rel='stylesheet' type='text/css' /> 
+<meta content='index.tex' name='src' /> 
+</head> 
+<body><div class='header'><p><a href='https://soneralbayrak.com/'>S.Albayrak</a> <a href='https://soneralbayrak.com/oteberi'>Anasayfa</a> <a href='https://soneralbayrak.com/oteberi/indexli1.html'>Kategoriler</a></p></div> 
+   <!-- l. 274 --><div class='crosslinks'><p class='noindent'>[<a href='indexse19.html'>next</a>] [<a href='indexse17.html'>prev</a>] [<a href='indexse17.html#tailindexse17.html'>prev-tail</a>] [<a href='#tailindexse18.html'>tail</a>] [<a href='index.html#indexse18.html'>up</a>] </p></div>
+   <h3 class='sectionHead' id='asal-sayı-bilmecesi'><span class='titlemark'>18   </span> <a id='x19-1900018'></a>Asal Sayı Bilmecesi</h3>
+<!-- l. 275 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='soru'><span class='titlemark'>18.1   </span> <a id='x19-2000018.1'></a>SORU:</h4>
+<!-- l. 276 --><p class='noindent'>A basamaklı bir asal sayıdan başlayayım, bu asal sayının bir ucuna (örneğin
+sağına) rakamlar ekleyerek ne kadar asal sayı elde etmeye devam edebilirim?
+</p><!-- l. 278 --><p class='indent'>   Örneğin 84121 ile başlarsam, sağına ekleye ekleye sırayla 841213,
+8412139, 84121393, 841213939 diye yazabilirim, bunların hepsi de asal
+sayı.
+</p><!-- l. 280 --><p class='indent'>   Peki rastgele bir asal sayıdan başlayınca ne kadar bunu devam ettirebilirim?
+</p><!-- l. 282 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='kisa-cevap'><span class='titlemark'>18.2   </span> <a id='x19-2100018.2'></a>KISA CEVAP:</h4>
+<!-- l. 283 --><p class='noindent'>İlk başladığım asal sayı ne kadar büyükse, o kadar uzun bir asal sayı zinciri
+yapabilirim. Fakat ilk başladığım asal sayı ne kadar büyük olursa olsun, asal
+sayı zincirim sonlu olmak zorunda.
+</p><!-- l. 285 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='uzun-cevap'><span class='titlemark'>18.3   </span> <a id='x19-2200018.3'></a>UZUN CEVAP:</h4>
+<!-- l. 286 --><p class='noindent'>Öncelikle şunu belirteyim, ben matematiksel olarak herhangi bir ispat
+yapmayacağım, sadece "Asal Sayı Teoremi"ni ve Mathematica’yı kullanarak a
+basamaklı bir asal sayıdan bu şekilde b basamaklı bir asal sayıya giden kaç
+tane asal sayı zinciri oluşturulabilir onu inceleyeceğim.
+</p><!-- l. 288 --><p class='indent'>   Ekteki birinci resimden de görülebileceği gibi basamak sayısı arttıkça
+sağına rakam yazıldığında oluşacak sayının asal olabilme olasılığı giderek
+düşüyor. Fakat bu olasılığın düşmesi tek başına yeterli değil, çünkü
+                                                                          
+
+                                                                          
+basamak arttıkça asal sayısı da artıyor.
+</p><!-- l. 290 --><p class='indent'>   Bu iki değişkenin (yani asal sayı sayısının artmasının ve asal sayı
+oluşturma olasılığının azalmasının) birleşik etkisini ikinci resimde
+görüyoruz: Ne kadar büyük basamaklı bir asal sayıdan başlarsak, o kadar
+çok asal sayı bulabiliyoruz ve asal sayı zincir sayımız da çok. Fakat zinciri
+uzatmaya kalktıkça (yatay eksende ilerledikçe) oluşturabileceğimiz zincir
+sayısı düşüyor. Bu teorik hesaba göre 10 basamaklı bir asal sayıdan
+başlarsak, 25 basamaklı bir asal sayıya kadar zincir yapabileceğimiz sonucuna
+varabiliriz, fakat daha uzun bir zincir oluşturabilme olasılığımız hızla sıfıra
+gidiyor.
+</p><!-- l. 292 --><p class='indent'>   Öncelikle bu teorik bir hesaplama ve olasılığa dayalı. Yani aşırı düşük
+de olsa 10 basamaktan başlayıp 100 basamağa kadar giden bir asal sayı
+zinciri olabilir. Fakat şunu net olarak söyleyebiliriz ki sonsuza kadar
+giden bir asal sayı zinciri olamaz, çünkü sonlu bütün zincirler için
+olasılık sıfırdan farklı olsa da sonsuza götürdüğümüzde olasılık sıfıra
+gidiyor.
+</p><!-- l. 294 --><p class='indent'>   Bu teorik sonucu pratik bir hesaplamayla da test edebiliriz. Mathematica’ya
+her basamakta en fazla 1 milyon tane farklı asal sayı üretip bunlardan kaç tane
+asal sayı zinciri oluşturulabileceğini hesaplattım. Buradan elde edilen sonucu
+da teoriyle kıyasladım, sonuç üçüncü grafikte. Görülebileceği
+gibi pratik ve teori oldukça uyumlu. İlk başlardaki sonuçlar için
+Mathematica teoriden daha güvenilir çünkü teori büyük sayılar için
+daha geçerli. Sayı büyüdükçeyse teori daha güvenilir, çünkü
+Mathematica en fazla 1 milyon asal sayıdan asal sayı zinciri oluşturmaya
+çalıştığı için daha büyük asal sayılarda bazı olası zincirleri kaçırmaya
+başlıyor.
+</p><!-- l. 296 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='teorik-hesap-icin-kod'><span class='titlemark'>18.4   </span> <a id='x19-2300018.4'></a>TEORİK HESAP İÇİN KOD:</h4>
+                                                                          
+
+                                                                          
+   <pre class='verbatim' id='verbatim-2'>
+asalSayıTeoremi[x_] :=Round[10^x/Log[10^x] - 10^(x - 1)/Log[10^(x - 1)]];
+sonrakininAsalOlmaOlasılığı[x_] := numberOfPrimesForGivenLength[x + 1]/(10^(x + 1) - 10^x);
+aBasamaklıAsaldanBBasamağaGidenAsalSayısıTeori[a_, b_] :=N[asalSayıTeoremi[
+a] Product[(10 sonrakininAsalOlmaOlasılığı[i]), {i, a, b - 1}]];
+</pre>
+<!-- l. 303 --><p class='nopar'>
+</p><!-- l. 305 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='numerik-hesap-icin-kod'><span class='titlemark'>18.5   </span> <a id='x19-2400018.5'></a>NUMERİK HESAP İÇİN KOD:</h4>
+                                                                          
+
+                                                                          
+   <pre class='verbatim' id='verbatim-3'>
+sayıOluştur[x_] := FromDigits[{x, #}] &amp; /@ Range[9];
+SetAttributes[sayıOluştur, Listable];
+asalOlmayanıEle[x_] := If[PrimeQ[x], x, Nothing];
+SetAttributes[asalOlmayanıEle, Listable];
+sonrakiBasamağaGeç[x_] := asalOlmayanıEle[Flatten[sayıOluştur[x]]];
+asalSayıOluştur[x_, n_] := Union[RandomPrime[{10^(x - 1), 10^x}, n]]
+aBasamaklıAsaldanBBasamağaGidenAsalSayısıPratik[a_, b_,
+denemeSayısı_] :=
+Length[With[{c = asalSayıOluştur[a, denemeSayısı]},
+Nest[sonrakiBasamağaGeç, c, b - a]]]
+</pre>
+<!-- l. 318 --><p class='nopar'> <img alt='PIC' src='images//asal1.jpg' style='width:100%' /> <br class='newline' /> <img alt='PIC' src='images//asal2.jpg' style='width:100%' /> <br class='newline' /> <img alt='PIC' src='images//asal3.jpg' style='width:100%' />
+                                                                          
+
+                                                                          
+</p>
+   <!-- l. 323 --><div class='crosslinks'><p class='noindent'>[<a href='indexse19.html'>next</a>] [<a href='indexse17.html'>prev</a>] [<a href='indexse17.html#tailindexse17.html'>prev-tail</a>] [<a href='indexse18.html'>front</a>] [<a href='index.html#indexse18.html'>up</a>] </p></div>
+<!-- l. 323 --><p class='indent'>   <a id='tailindexse18.html'></a>  </p> 
+<div class='footer'><p>Copyright © by Soner Albayrak | All rights reserved</p></div> 
+ 
+</body>  
+</html>
