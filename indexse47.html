@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html lang='en-US' xml:lang='en-US'> 
-<head><title>2019 Yerel Seçimleri ve Veri Gorselleştirmesi</title> 
+<head><title>Projektif geometri</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
@@ -8,70 +8,96 @@
 <meta content='index.tex' name='src' /> 
 </head> 
 <body><div class='header'><p><a href='https://soneralbayrak.com/'>S.Albayrak</a> <a href='https://soneralbayrak.com/oteberi'>Anasayfa</a> <a href='https://soneralbayrak.com/oteberi/indexli1.html'>Kategoriler</a></p></div> 
-   <!-- l. 666 --><div class='crosslinks'><p class='noindent'>[<a href='indexse48.html'>next</a>] [<a href='indexse46.html'>prev</a>] [<a href='indexse46.html#tailindexse46.html'>prev-tail</a>] [<a href='#tailindexse47.html'>tail</a>] [<a href='index.html#indexse47.html'>up</a>] </p></div>
-   <h3 class='sectionHead' id='-yerel-secimleri-ve-veri-gorsellestirmesi'><span class='titlemark'>47   </span> <a id='x48-5800047'></a>2019 Yerel Seçimleri ve Veri Görselleştirmesi</h3>
-<!-- l. 668 --><p class='noindent'>Özellikle büyük miktarlardaki verinin doğru analiz edilebilmesinde verinin
-görselleştirilmesinin büyük payı var. Örnek olarak Türkiye’nin 31 Mart
-2019 Yerel Seçimleri’ni ele alalım. Hemen hemen bütün basın kuruluşlarında
-il bazında sonuçlar sunulduğu için şehirler arasında çok keskin bir hat varmış
-izlenimi uyanır, örneğin bir gazetenin sitesinden görebileceğimiz standart harita
-şudur:<span class='footnote-mark'><a href='indexse27.html#fn1x0'><sup class='textsuperscript'>1</sup></a></span><a id='x48-58001f1'></a>
-</p><!-- l. 670 --><p class='indent'>   <img alt='PIC' src='images//2019-Yerel-Seçim-Sabah-Gazetesi.png' style='width:100%' />
-</p><!-- l. 672 --><p class='indent'>   Oysa veriyi ne kadar temel parçalara bölerseniz o kadar daha sağlıklı işlersiniz.
-Konda<span class='footnote-mark'><a href='indexse39.html#fn2x0'><sup class='textsuperscript'>2</sup></a></span><a id='x48-58002f2'></a>
-araştırma şirketinin raporunda da görebileceğimiz gibi ilçeler bazında
-aslında harita şudur:
-</p><!-- l. 674 --><p class='indent'>   <img alt='PIC' src='images//2019-Yerel-Seçim-ilçe-bazında.png' style='width:100%' />
-</p><!-- l. 676 --><p class='indent'>   İlk grafik Türkiye’nin coğrafi haritasında oyların dağılımı. Oysa nüfus
-yoğunluğu her yerde aynı değil, örneğin Konya’nın yüzölçümü
-İstanbul’dan çok daha fazla olduğu için ilk haritada renkler adil bir şekilde
-dağılmış değil. Daha doğru bir ifadeyle ilk haritaya bakıp da bir rengin
-fazlalığını, ülkede karşılık gelen partiye büyük bir destek olması olarak
-yorumlamak yanlış olacaktır!
-</p><!-- l. 678 --><p class='indent'>   Yukarıdaki ikinci haritaya cartogram deniyor: Türkiye’deki ilçeler
-nüfuslarına orantılı olacak şekilde büyütüp küçültülmüş durumda.
-Yani bu cartogram’da renklerin oranı partier arasındaki desteğin oranını doğru
-bir şekilde ifade ediyor. Örneğin ilk resimde sarı ve yeşil renklerin hemen
-hemen aynı miktarda olmasına rağmen ikinci resimde gördüğümüz gibi
-CHP’ye olan destek (yeşil) MHP’ye olan destekten (sarı) çok daha
-fazla!
-</p><!-- l. 680 --><p class='indent'>   Veriyi küçük parçalara ayırıp analiz etmek gibi farklı verileri
-kümelendirip istatistiksel bir sonuç çıkarmaya da çalışabiliriz. Örneğin
-Konda’nın aynı raporunda şöyle bir grafik de var:
-</p><!-- l. 682 --><p class='indent'>   <img alt='PIC' src='images//2019-Yerel-Seçimler-kümelenmiş.png' style='width:100%' />
-</p><!-- l. 684 --><p class='indent'>   Bu haritada renkler belli bir partiye karşılık gelmiyor. Ayrıca harita sadece 2019
+   <!-- l. 677 --><div class='crosslinks'><p class='noindent'>[<a href='indexse48.html'>next</a>] [<a href='indexse46.html'>prev</a>] [<a href='indexse46.html#tailindexse46.html'>prev-tail</a>] [<a href='#tailindexse47.html'>tail</a>] [<a href='index.html#indexse47.html'>up</a>] </p></div>
+   <h3 class='sectionHead'><span class='titlemark'>47   </span> <a id='x48-5800047'></a>Projektif geometri</h3>
+<!-- l. 678 --><p class='noindent'>Projective geometry (sanırım türkçe tasarı geometri olarak geçiyor)
+geometrinin izdüşümlerle ilgilenen alanı. Eğer kafanızda geometrik bir soru
+varsa ve bu soru uzunluklardan bağımsız ise muhtemelen cevabını projektif
+geometri veriyordur: örneğin iki doğrunun paralel olup olmadıklarının, ya da
+üç boyutta iki düzlemin kesişiminden oluşan doğrunun bi noktadan geçip
+geçmediği projective geometri ile çözersiniz.
+</p><!-- l. 680 --><p class='indent'>   Aşağıda projektif geometrinin aslında niçin önemli olduğundan
+biraz bahsettim. Okullarda bilim ve matematik öğretimi üzerine
+makalelerin basıldığı School Science and Mathematics dergisinin 1928
+baskısında<span class='footnote-mark'><a href='indexse1.html#fn1x0'><sup class='textsuperscript'>1</sup></a></span><a id='x48-58001f1'></a>
+projective geometrinin liselerde öğretilmesinin gerekliliği savunuluyor,
+uygulayan ülkeler de var sanırım. 
+</p><!-- l. 682 --><p class='indent'>   Ekteki video’da Nima Arkani Hamed’in 11 saatlik konuşması var
+(tek parça değil elbette ).Konuşmasının 56. dakikasından itibaren
+1 saat projektif geometri anlatıyor, çok güzel ve yalın anlatıyor: lise
+bilgisiyle izleyip anlamak mümkün, vakit bulduğunda herkese tavsiye
+ederim!
+</p><!-- l. 684 --><p class='indent'>   <iframe allowfullscreen='allowfullscreen' frameborder='0' height='216' scrolling='no' src='https://www.youtube.com/embed/fCi195e9QD4?start=3357' width='384'></iframe> 
+</p><!-- l. 686 --><p class='indent'>   Projective geometrinin modern fizikte ve matematikte bir çok uygulaması
+var, ben de aslında conformal simetrinin projective olarak bir uzaya gömülmesi
+üzerinden öğrendim (böyle deyince havalı bi şey gibi durdu ama baya temel
+bir şey aslında). Fakat ben çok daha temel bir konu üzerinden önemini
+örneklendirmek istiyorum.
+</p><!-- l. 688 --><p class='indent'>   Bugün klasik fizikte fermiyonları kullanmıyor da kuantum fiziği yapmaya
+kalktığımızda varlıklarına ihtiyaç duyuyorsak, bunun sebebi aslında kuantum
+fiziğinin projective olmasıdır!
+</p><!-- l. 690 --><p class='indent'>   Demeye çalıştığım şeyi bir tık açayım. Klasik fizikte, bir sistemin ya da
+objenin durumunu konumuna ve hızına (momentumuna) bakarak anlarız.
+Alınabilecek bütün konumlardan ve momentumlardan hayali bir uzay üretecek
+olsaydık da, sistemimiz bu uzayda bir noktaya karşılık gelirdi. Bu uzaya faz
+uzayı (phase space) deniyor.
                                                                           
 
                                                                           
-yerel seçimlerinin değil, son üç seçimin verilerinin toplamından üretilmiş
-durumda. Kısacası, ülkedeki insanların siyasi profilini kümelendirecek
-olursak, ortaya 3 farklı küme çıkıyor (bir de geçiş kümesi var, açık
-yeşil renk). Detayları merak eden bağlantısını paylaştığım rapora
-bakabilir.
-</p><!-- l. 686 --><p class='indent'>   Veri görselleştirmesinden verebileceğimiz bir başka örnek de Sankey
-diagramı:
-</p><!-- l. 688 --><p class='indent'>   <img alt='PIC' src='images//2019-Yerel-Seçim-Sankey-diagramı.png' style='width:100%' />
-</p><!-- l. 690 --><p class='indent'>   Bu diagram belediyelerin son iki seçim arasında nasıl el değiştirdiğini
-görselleştiriyor. Sankey diagramları bir setteki elemanların (yukarıdaki
-durumda belediyeler) farklı iki kümelenmeleri (yukarıdaki durumda 2014 ve
-2019 seçimleri) arasındaki geçişi göstermek için ideal araşlardan
-biri.
-</p><!-- l. 692 --><p class='indent'>   Elbette sadece bir diagramdan yola çıkarak yorum yapmak oldukça sığ
-olur. Örneğin yukarıdaki diagrama göre mor renkteki değişim (AKP
-belediye sayısındaki değişim) 2014 ve 2019 arasında oldukça az, oysa aynı
-veriyi belediye sayısı yerine belediyelerdeki nüfus olarak bakacak olsaydık durum
-oldukça farklı olurdu. Ben bu seçimleri konuyu örneklemek için kullandım,
-fakat daha detaylı merak eden varsa Konda’nın raporuna bakmasını tavsiye
-ederim.<span class='footnote-mark'><a href='#fn3x0' id='fn3x0-bk'><sup class='textsuperscript'>3</sup></a></span><a id='x48-58003f3'></a>
+</p><!-- l. 692 --><p class='indent'>   Kuantum mekaniğine geldiğimizdeyse aynı anda konumu ve hızı
+ölçemediğimiz için faz uzayı geçerliliğini yitiriyor. Onun yerine sistemleri
+başka bir hayali uzaya oturtuyoruz, bu uzaya Hilbert uzayı deniyor. Ve fakat
+sistemimiz Hilbert uzayında bir noktaya değil bir ışına karşılık geliyor! Daha
+doğrusu aynı ışın üzerindeki sonsuz farklı nokta aslında aynı sistemi
+tasvir ediyor: kuantum mekaniksel sistemler "projective Hilbert uzayında"
+gösterilirler.
+</p><!-- l. 694 --><p class='indent'>   Buraya kadar çok da matah bir şey gibi durmayabilir: Ha noktayla
+göstermişiz ha ışınla diyebilirsiniz  Fakat şöyle de bir gerçek var. Eğer
+sistemimizde bir simetri varsa, Hilbert uzayının projective olmasından dolayı bu
+simetriyi de projective ifade etmemiz lazım. Kuantum fiziği olasılıksal
+çalıştığı için her zaman toplam olasılığı korumamız da lazım (bütün
+olasılıkların toplamı 1 olmazsa bir yanlış yapıyoruz demektir). Bu şartları
+sağlayabilmemiz için de, sistemimizdeki simetrilerin "projective unitary
+representation"larını kullanmamız gerekiyor!.
+</p><!-- l. 696 --><p class='indent'>   Şimdi grup teori bilmeyen bir insan bu ifadeden bir şey anlamayacaktır.
+Bilen ve ilgilenen olursa yorumlarda daha detaylı konuşuruz, bilmeyenleri
+sıkmamak için hızlıca bunun ne anlama geldiğini söyleyip geçeyim: Elimizde
+bir simetri varsa ve biz bu simetriyi projective unitary represent etmek
+istiyorsak, bunun eşdeğeri olarak simetri grubunun genişletmemiz
+gerekmektedir.
+</p><!-- l. 698 --><p class='indent'>   Boş bir uzayda bir sistemi hayal ettiğimizde bu sistemin dönme simetrisi
+vardır; öyle ya, bomboş uzayda bir sistemi sağa sola çevirseniz hiçbir
+şeyin değişmemesi lazım. Bu dönme simetrisi klasik fizikte de var,
+matematiksel olarak SO grubu deniyor. Biz onları skaler ve vektör laflarından
+tanıyoruz: örneğin elektrik alanı vektörünü kullanıyorsak bunun
+sebebi o nesnenin dönme grubunun bir elemanı olmasıdır. Fakat yukarıda
+projective düşünmenin eşdeğeri grubu genişletmek demiştik; dönme
+grubunun genişletilmiş hali de Spin grubu. Spin grubunda da SO grubunda
+olduğu gibi skalerler vektörler var, fakat SO grubunda olmayan başka
+nesneler de var. İşte tam olarak da bu başka nesneler bizim fermiyonları
+tasvir etmemizi sağlıyor (örneğin elektronu). Bir başka deyişle,
+kuantum fiziği sayesinde fermiyonları açıklayabilmemizin temel sebebi
+Hilbert uzayının projective geometri ile kullanılmasının gerekmesi. Bu
+açıklamaları aslında çok daha genel bir şekilde şu soruda ve cevabında
+bulabilirsiniz.<span class='footnote-mark'><a href='indexse40.html#fn2x0'><sup class='textsuperscript'>2</sup></a></span><a id='x48-58002f2'></a>
+</p><!-- l. 700 --><p class='indent'>   Yukarıda bahsettiğim makalede yazıyor, ilk projektif geometri kitabı Eugene
+Catalan tarafından 1866’da yazılmış. 2019 yılına geldik, fakat ben henüz
+Türkçe benzer bir kitap yazıldığına şüpheliyim. Google’da aratınca bir
+sürü tasarı geometri kitabı çıkıyor, fakat anladığım kadarıyla temel
+matematik kitabı olarak değil de mimarlık ve endüstri ürünleri tasarımı gibi
+                                                                          
+
+                                                                          
+bölümler için hazırlanmışlar. Umarım yanılıyorumdur ya da en kısa sürede
+bu eksiğimiz düzgün bir şekilde kapatılır.
                                                                           
 
                                                                           
 </p>
-   <div class='footnotes'><!-- l. 668 --><p class='indent'>     <span class='footnote-mark'><a href='indexse27.html#fn1x0-bk'><sup class='textsuperscript'>1</sup></a></span>    <a class='url' href='https://www.sabah.com.tr/secim/31-mart-2019-yerel-secim-sonuclari'><span class='ectt-1000'>https://www.sabah.com.tr/secim/31-mart-2019-yerel-secim-sonuclari</span></a></p>
-<!-- l. 672 --><p class='indent'>   <span class='footnote-mark'><a href='indexse39.html#fn2x0-bk'><sup class='textsuperscript'>2</sup></a></span>    <a class='url' href='https://konda.com.tr'><span class='ectt-1000'>https://konda.com.tr</span></a></p>
-<!-- l. 692 --><p class='indent'>   <span class='footnote-mark'><a href='#fn3x0-bk' id='fn3x0'><sup class='textsuperscript'>3</sup></a></span>   <a class='url' href='https://konda.com.tr/rapor/30/31-mart-2019-yerel-secimlerinin-sayisal-analizi'><span class='ectt-1000'>https://konda.com.tr/rapor/30/31-mart-2019-yerel-secimlerinin-sayisal-analizi</span></a></p> </div>
-<!-- l. 694 --><div class='crosslinks'><p class='noindent'>[<a href='indexse48.html'>next</a>] [<a href='indexse46.html'>prev</a>] [<a href='indexse46.html#tailindexse46.html'>prev-tail</a>] [<a href='indexse47.html'>front</a>] [<a href='index.html#indexse47.html'>up</a>] </p></div>
-<!-- l. 694 --><p class='indent'>   <a id='tailindexse47.html'></a> </p> 
+   <div class='footnotes'><!-- l. 680 --><p class='indent'>     <span class='footnote-mark'><a href='indexse1.html#fn1x0-bk'><sup class='textsuperscript'>1</sup></a></span>    <a class='url' href='https://doi.org/10.1111/j.1949-8594.1928.tb00522.x'><span class='ectt-1000'>https://doi.org/10.1111/j.1949-8594.1928.tb00522.x</span></a></p>
+<!-- l. 698 --><p class='indent'>   <span class='footnote-mark'><a href='indexse40.html#fn2x0-bk'><sup class='textsuperscript'>2</sup></a></span><span class='ecrm-1000'>https://physics.stackexchange.com/questions/203944/why-exactly-do-sometimes-universal-covers-and-sometimes-central-extensions-feat/203945</span></p> </div>
+<!-- l. 703 --><div class='crosslinks'><p class='noindent'>[<a href='indexse48.html'>next</a>] [<a href='indexse46.html'>prev</a>] [<a href='indexse46.html#tailindexse46.html'>prev-tail</a>] [<a href='indexse47.html'>front</a>] [<a href='index.html#indexse47.html'>up</a>] </p></div>
+<!-- l. 703 --><p class='indent'>   <a id='tailindexse47.html'></a> </p> 
 <div class='footer'><p>Copyright © by Soner Albayrak | All rights reserved</p></div> 
  
 </body>  

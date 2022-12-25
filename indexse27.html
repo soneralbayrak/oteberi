@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html lang='en-US' xml:lang='en-US'> 
-<head><title>Gezegenler ile ilgili sevimli grafikler!</title> 
+<head><title>Palindrom’lar</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
@@ -8,23 +8,71 @@
 <meta content='index.tex' name='src' /> 
 </head> 
 <body><div class='header'><p><a href='https://soneralbayrak.com/'>S.Albayrak</a> <a href='https://soneralbayrak.com/oteberi'>Anasayfa</a> <a href='https://soneralbayrak.com/oteberi/indexli1.html'>Kategoriler</a></p></div> 
-   <!-- l. 433 --><div class='crosslinks'><p class='noindent'>[<a href='indexse28.html'>next</a>] [<a href='indexse26.html'>prev</a>] [<a href='indexse26.html#tailindexse26.html'>prev-tail</a>] [<a href='#tailindexse27.html'>tail</a>] [<a href='index.html#indexse27.html'>up</a>] </p></div>
-   <h3 class='sectionHead' id='gezegenler-ile-ilgili-sevimli-grafikler'><span class='titlemark'>27   </span> <a id='x28-3600027'></a>Gezegenler ile ilgili sevimli grafikler!</h3>
-<!-- l. 434 --><p class='noindent'>Özellikle çocukların ilgisini çekebilir diye gezegenlerimizle ilgili bazı bilgileri
-karikatürize edilmiş grafikler olarak hazırladım. Bilgilerin hepsi NASA’nın
-sitesinden<span class='footnote-mark'><a href='#fn1x0' id='fn1x0-bk'><sup class='textsuperscript'>1</sup></a></span><a id='x28-36001f1'></a>,
-grafikleri de Mathematica ile çizdirdim. 
-</p><!-- l. 436 --><p class='indent'>   Karikatürize etmek için şu kodu kullandım:
-<a class='url' href='https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots'><span class='ectt-1200'>https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots</span></a>
-<br class='newline' /></p><div class='minipage'><img alt='PIC' src='images//gezegen1.jpg' style='width:100%' /> <br class='newline' /> <img alt='PIC' src='images//gezegen2.jpg' style='width:100%' />
-</div> <div class='minipage'><img alt='PIC' src='images//gezegen3.jpg' style='width:100%' /> <br class='newline' /> <img alt='PIC' src='images//gezegen4.jpg' style='width:100%' />
-</div>
+   <!-- l. 437 --><div class='crosslinks'><p class='noindent'>[<a href='indexse28.html'>next</a>] [<a href='indexse26.html'>prev</a>] [<a href='indexse26.html#tailindexse26.html'>prev-tail</a>] [<a href='#tailindexse27.html'>tail</a>] [<a href='index.html#indexse27.html'>up</a>] </p></div>
+   <h3 class='sectionHead'><span class='titlemark'>27   </span> <a id='x28-3400027'></a>Palindrom’lar</h3>
+<!-- l. 438 --><p class='noindent'><span class='paragraphHead'><a id='x28-3500027'></a><span class='ecbx-1200'>ÖZET SORU:</span></span>
+   3, 5, 10 ve 786435 arasındaki ilişki nedir?
+</p>
+<!-- l. 439 --><p class='noindent'><span class='paragraphHead'><a id='x28-3600027'></a><span class='ecbx-1200'>ÖZET CEVAP:</span></span>
+   Belirli koşullarda en küçük palindromlar bu sayılardır!
+</p><!-- l. 441 --><p class='indent'>   Tersten okunuşu kendisine eşit ifadelere genel olarak palindrom deniyor,
+matematikte de yazılış olarak kendisinin tersi olan sayılar palindrom oluyorlar,
+örneğin 1221 ya da 23432 palindrom sayılar.
+</p><!-- l. 443 --><p class='indent'>   Tabi 10 tabanında çalışmak zorunda değiliz, onluk sistemde palindrom
+olmayan 15 sayısı 2lik sistemde palindrom oluyor, çünkü 2 tabanında 15’i
+"1111" olarak yazıyoruz.
+</p><!-- l. 445 --><p class='indent'>   Yine 10 tabanında palindrom olmayan 78 sayısı hem 5 hem de 7 tabanında
+palindrom: 5’lik tabanında 303 diye yazılıyor 7’lik tabanda da 141.
+</p><!-- l. 447 --><p class='indent'>   Bu şekilde bir çok tabanda aynı anda palindrom olan sayı bulmak
+mümkün. Örneğin 242 sayısı 10’lık tabanda palindrom, 7’lik tabanda 464
+diye yazılıyor gene palindrom, 3’lük tabanda 22222 diye yazılıyor gene
+palindrom  Tabi bu açıdan bakarsak 2 sayısı hem 3 tabanında hem 4 tabanında
+hem 5 tabanında palindrom ama biz havalı sayılarla ilgilendiğimiz için tek
+haneli palindromları ihmal edelim 
+</p><!-- l. 449 --><p class='indent'>   Tek haneli sayıları ihmal edince 3 tane farklı tabanda da palindrom olarak
+yazılabilen en küçük sayıyı bulması kolay: 10 Bu sayının 3 4 ve 9
+tabanlarındaki yazılışı sırasıyla 101, 22 ve 11  Benzer şekilde 2 farklı tabanda
+da palindrom olan en küçük sayıyı bulmak kolay, 5: 2 tabanında 101, 4
+tabanında 11 diye yazılıyor. En az 1 tabanda palindrom sayıysa 3: 2 tabanında 11
+diye yazılıyor!
+</p><!-- l. 451 --><p class='indent'>   En az 1, en az 2, ve en az 3 tabanda palindrom olan sayıları bulması görmesi
+kolay oldu, çünkü çok küçük sayılar. Fakat en az 4 farklı tabanda havalı
+palindrom olan en küçük sayı kaçtır?
                                                                           
 
                                                                           
-   <div class='footnotes'><!-- l. 434 --><p class='indent'>     <span class='footnote-mark'><a href='#fn1x0-bk' id='fn1x0'><sup class='textsuperscript'>1</sup></a></span>    <a class='url' href='https://nssdc.gsfc.nasa.gov/planetary/factsheet/'><span class='ectt-1000'>https://nssdc.gsfc.nasa.gov/planetary/factsheet/</span></a></p>                 </div>
-<!-- l. 447 --><div class='crosslinks'><p class='noindent'>[<a href='indexse28.html'>next</a>] [<a href='indexse26.html'>prev</a>] [<a href='indexse26.html#tailindexse26.html'>prev-tail</a>] [<a href='indexse27.html'>front</a>] [<a href='index.html#indexse27.html'>up</a>] </p></div>
-<!-- l. 447 --><p class='indent'>   <a id='tailindexse27.html'></a> </p> 
+</p><!-- l. 453 --><p class='indent'>   Elle bakması zor, fakat Mathematica ile bakması kolay  Ekte kodu
+paylaştım, 1 milyona kadarki bütün sayıların 2den 10’a kadarki bütün
+tabanlardaki yazılışlarına bakıp bunlar arasında palindrom olanları seçtim.
+Sonra da birden fazla tabana göre palindrom olan sayıların listesini çıkardım.
+Bu listeye göre, ilginç bir şekilde, 4 farklı tabanda da palindrom olan
+1 milyondan küçük sadece bir tane sayı var: 786435 Yani iyi ki elle
+bakmamışız 
+</p><!-- l. 455 --><p class='indent'>   10 tabanında 786435 olarak bildiğimiz sayı </p>
+      <ul class='itemize1'>
+      <li class='itemize'>2 tabanında 11000000000000000011 olarak
+      </li>
+      <li class='itemize'>4 tabanında 3000000003 olarak
+      </li>
+      <li class='itemize'>7 tabanında 6453546 olarak
+      </li>
+      <li class='itemize'>8 tabanında 3000003 olarak</li></ul>
+<!-- l. 462 --><p class='noindent'>yazılıyor.
+</p><!-- l. 464 --><p class='indent'>   Yine bu Mathematica sonucuna göre de 11’den küçük 5 farklı
+tabanda palindrom olarak yazılabilecek 1 milyondan küçük bir sayı
+yok!
+</p><!-- l. 466 --><p class='indent'>   Bana oldukça ilginç gelen bir sonuç, sırasıyla 1, 2, 3, ve 4 farklı
+tabanda palindrom olabilen en küçük sayılar 3, 5, 10 ve 786435! Hem
+ilginç olduğu için sizlerle paylaşmak istedim, hem de arada böyle
+paylaşımlarla programlamaya olan ilgiyi arttırmayı umuyorum: Hali
+hazırda ilgililer için de ekteki resim kısa bir kod örneği olmuş oldu.
+<br class='newline' /> <img alt='PIC' src='images//palindrom.png' style='width:100%' />
+                                                                          
+
+                                                                          
+</p>
+   <!-- l. 470 --><div class='crosslinks'><p class='noindent'>[<a href='indexse28.html'>next</a>] [<a href='indexse26.html'>prev</a>] [<a href='indexse26.html#tailindexse26.html'>prev-tail</a>] [<a href='indexse27.html'>front</a>] [<a href='index.html#indexse27.html'>up</a>] </p></div>
+<!-- l. 470 --><p class='indent'>   <a id='tailindexse27.html'></a>  </p> 
 <div class='footer'><p>Copyright © by Soner Albayrak | All rights reserved</p></div> 
  
 </body>  

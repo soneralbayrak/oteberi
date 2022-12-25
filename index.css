@@ -13,6 +13,7 @@
 .ecbx-1095{ font-weight: bold;}
 .ecbx-1095{ font-weight: bold;}
 .ecbx-1095{ font-weight: bold;}
+.ecbx-1095{ font-weight: bold;}
 .ecti-1095{font-size:83%; font-style: italic;}
 .ecti-1095{ font-style: italic;}
 .ecti-1095{ font-style: italic;}
@@ -23,6 +24,7 @@
 .ecti-1095{ font-style: italic;}
 .ecti-1095{ font-style: italic;}
 .ecti-1095{ font-style: italic;}
+.ecti-1095{ font-style: italic;}
 .ectt-1200{ font-family: monospace,monospace;}
 .ectt-1200{ font-family: monospace,monospace;}
 .ectt-1200{ font-family: monospace,monospace;}
@@ -33,20 +35,18 @@
 .ectt-1200{ font-family: monospace,monospace;}
 .ectt-1200{ font-family: monospace,monospace;}
 .ectt-1200{ font-family: monospace,monospace;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.ecbx-1200{ font-weight: bold;}
-.cmr-8{font-size:66%;}
-.cmmi-12{font-style: italic;}
-.cmmi-8{font-size:66%;font-style: italic;}
-.cmsy-8{font-size:66%;}
+.ectt-1200{ font-family: monospace,monospace;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
+.ecti-1200{ font-style: italic;}
 .ecrm-1000{font-size:83%;}
 .ectt-1000{font-size:83%; font-family: monospace,monospace;}
 .ectt-1000{ font-family: monospace,monospace;}
@@ -58,6 +58,22 @@
 .ectt-1000{ font-family: monospace,monospace;}
 .ectt-1000{ font-family: monospace,monospace;}
 .ectt-1000{ font-family: monospace,monospace;}
+.ectt-1000{ font-family: monospace,monospace;}
+.cmr-8{font-size:66%;}
+.cmmi-12{font-style: italic;}
+.cmmi-8{font-size:66%;font-style: italic;}
+.cmsy-8{font-size:66%;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
+.ecbx-1200{ font-weight: bold;}
 @media print {span.next {visibility:hidden;}}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
@@ -183,6 +199,26 @@ figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 p + figcaption, img + figcaption{margin-top: 1em;}
 .abstract{margin:1em;}
 .rotatebox{display: inline-block;}
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 0px; margin:0px; }
+.hline td, .cline td{ padding: 0; }
+.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.hline {border-top: 1px solid black;}
+div.array {text-align:center;}
 .equation td{text-align:center; }
 .equation-star td{text-align:center; }
 table.equation-star { width:100%; }
@@ -197,6 +233,7 @@ td.gather {text-align:center; }
 table.gather {width:100%;}
 div.gather-star {text-align:center;}
 .tableofcontents{columns: 2;} body{ background-color:#E1FFC2; text-color:#000000; } .ecti-1095{ background-color:#E1FFC2; text-color:#000000; } .ectt-1200{ font-size:83%; } blockquote { background: #f9f9f9; border-left: 10px solid #ccc; margin: 1.5em 10px; padding: 0.5em 10px; } blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-height: 0.1em; margin-right: 0.25em; vertical-align: -0.4em; } blockquote:after { color: #ccc; content: close-quote; font-size: 4em; line-height: 0.1em; margin-right: 0.25em; vertical-align: -0.4em; } blockquote p { display: inline; } 
+#TBL-2-1{border-right:1px solid black;}
 div.center-quotation{text-align: center;}
 div.center-quotation{text-align: center;}
 div.center-quotation{text-align: center;}
