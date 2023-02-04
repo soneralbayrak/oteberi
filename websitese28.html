@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>Havalı Kıta Haritaları</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='website.css' rel='stylesheet' type='text/css' /> 
+<meta content='website.tex' name='src' /> 
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js' type='text/javascript'></script>  
+<link href='css/custom.css' rel='stylesheet' type='text/css' /></head> 
+<body><div class='header'><p><a href='https://soneralbayrak.com/'>S.Albayrak</a> <a href='https://soneralbayrak.com/oteberi'>Anasayfa</a> <a href='https://soneralbayrak.com/oteberi/indexli1.html'>Kategoriler</a></p></div> 
+   <!-- l. 502 --><div class='crosslinks'><p class='noindent'>[<a href='websitese29.html'>next</a>] [<a href='websitese27.html'>prev</a>] [<a href='websitese27.html#tailwebsitese27.html'>prev-tail</a>] [<a href='#tailwebsitese28.html'>tail</a>] [<a href='websitech7.html#websitese28.html'>up</a>] </p></div>
+   <h3 class='sectionHead' id='havalı-kıta-haritaları'><span class='titlemark'>7.3   </span> <a id='x37-450007.3'></a>Havalı Kıta Haritaları</h3>
+   <div class='sectionTOCS'>
+   </div>
+<!-- l. 504 --><p class='indent'>   Ekte ülkemizin kesişiminde olduğu üç kıtanın ülkelerinin bayrakları
+şeklindeki resmini görebilirsiniz. Resimleri Mathematica ile çizdirdim, bu
+tarz resimleri kendiniz de rahatlıkla çizdirebilmeniz için en az bir
+programlama dili tavsiye olunur <br class='newline' /> <img alt='PIC' src='images//asya.jpg' style='width:100%' />  <br class='newline' /> <img alt='PIC' src='images//avrupa.jpg' style='width:100%' />  <br class='newline' /> <img alt='PIC' src='images//afrika.jpg' style='width:100%' />
+</p><!-- l. 509 --><p class='indent'>   Örnek olarak Afrika için kullanılan kod:
+                                                                         
+
+                                                                         
+</p>
+   <pre class='verbatim' id='verbatim-4'>
+GeoGraphics[{EdgeForm[Black],{GeoStyling[{"Image",#2}],Polygon[#1]}&amp;@@@EntityValue[EntityClass["Country","Africa"],{"Entity","FlagImage"}]},GeoBackground-&gt;"ReliefMap",GeoProjection-&gt;"Robinson",ImageSize-&gt;Large]
+</pre>
+<!-- l. 512 --><p class='nopar'>
+                                                                         
+
+                                                                         
+</p>
+   <!-- l. 513 --><div class='crosslinks'><p class='noindent'>[<a href='websitese29.html'>next</a>] [<a href='websitese27.html'>prev</a>] [<a href='websitese27.html#tailwebsitese27.html'>prev-tail</a>] [<a href='websitese28.html'>front</a>] [<a href='websitech7.html#websitese28.html'>up</a>] </p></div>
+<!-- l. 513 --><p class='indent'>   <a id='tailwebsitese28.html'></a> </p> 
+<div class='footer'><p>Copyright © by Soner Albayrak | All rights reserved</p></div> 
+ 
+</body>  
+</html>

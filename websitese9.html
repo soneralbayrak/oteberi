@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>Kuresel Harmonikler</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='website.css' rel='stylesheet' type='text/css' /> 
+<meta content='website.tex' name='src' /> 
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js' type='text/javascript'></script>  
+<link href='css/custom.css' rel='stylesheet' type='text/css' /></head> 
+<body><div class='header'><p><a href='https://soneralbayrak.com/'>S.Albayrak</a> <a href='https://soneralbayrak.com/oteberi'>Anasayfa</a> <a href='https://soneralbayrak.com/oteberi/indexli1.html'>Kategoriler</a></p></div> 
+   <!-- l. 188 --><div class='crosslinks'><p class='noindent'>[<a href='websitese10.html'>next</a>] [<a href='websitese8.html'>prev</a>] [<a href='websitese8.html#tailwebsitese8.html'>prev-tail</a>] [<a href='#tailwebsitese9.html'>tail</a>] [<a href='websitech3.html#websitese9.html'>up</a>] </p></div>
+   <h3 class='sectionHead' id='kuresel-harmonikler'><span class='titlemark'>3.4   </span> <a id='x14-140003.4'></a>Küresel Harmonikler</h3>
+   <div class='sectionTOCS'>
+   </div>
+<!-- l. 190 --><p class='indent'>   Çoğumuz lisede kimyada duymuştur, s orbitali p orbitali diye. İnternette
+ya da kitaplarda da garip garip şekillerini görmüşüzdür. Ekte
+basitleştirilmiş olarak ilk 5 açısal momentum orbitallerinden bazılarının
+resmini paylaşıyorum.
+</p><!-- l. 192 --><p class='indent'>   Bilmeyenler için olay şu: En basit atom modeli olan Bohr atom modeline
+göre elektronlar çekirdek etrafında döner. Ama kuantum fiziğine göre bu
+doğru değildir. Bu modelin biraz geliştirilmiş versiyonuna göre atomda
+elektronların konumları ya da hızları belirli değildir. Fakat konumlarının
+olasılıkları belirlidir. Bir elektronun atomda nerede olacağını belirleyen olasılık
+dağılımları da atomların açısal momentumları ile ilişkilidir. İşte bu
+açısal momentuma göre de farklı şekiller çizilir elektronun bir yerde olma
+olasılığı bu şekillere göre atoma dağılıyor diye. Ekteki resimdekiler de
+açısal momentumu 0,1,2,3 ve 4 olan elektronlar için kabaca olasılık
+dağılımı.
+</p><!-- l. 194 --><p class='indent'>   NOT 1: Bunu biraz da programlamaya motivasyon olarak düşünebilirsiniz.
+Bütün bu resmi hesaplaması çizmesi ve resim olarak kaydetmesi sadece şu
+kod:
+                                                                         
+
+                                                                         
+</p>
+   <pre class='verbatim' id='verbatim-1'>
+Export["resim.jpg",Column[Riffle[Table[Table[SphericalPlot3D[
+Abs[SphericalHarmonicY[#, m, \[Theta], \[Phi]]], {\[Theta], 0, Pi},
+{\[Phi], 0,2 Pi}, ColorFunction -&gt; "Rainbow"],{m, -#, 0}] &amp;[i],
+{i, 0, 4}], StringJoin[Table["_", 120]]]]]
+</pre>
+<!-- l. 201 --><p class='nopar'>
+</p><!-- l. 203 --><p class='indent'>   Ben Mathematica kullanıyorum, bu kod da Mathematica kodu. Fakat
+herhangi bir dil öğrendikten sonra bu tarz şeyleri kendiniz de yapabilirsiniz.
+Bu paylaşım en azından bazılarınıza dil öğrenmek için şevk verir diye
+umuyorum 
+</p><!-- l. 205 --><p class='indent'>   NOT 2: İlgilenenler için matematiksel olarak aslında fonksiyonunu
+çizdirdiğim şey y küresel harmoniklerinin mutlak değerleri. l olarak
+açısal momentumu aldım, m olarak da -l ile 0 arasındakileri çizdirdim.
+<br class='newline' /> <img alt='PIC' src='images//harmonik.png' style='width:100%' />
+                                                                         
+
+                                                                         
+</p>
+   <!-- l. 209 --><div class='crosslinks'><p class='noindent'>[<a href='websitese10.html'>next</a>] [<a href='websitese8.html'>prev</a>] [<a href='websitese8.html#tailwebsitese8.html'>prev-tail</a>] [<a href='websitese9.html'>front</a>] [<a href='websitech3.html#websitese9.html'>up</a>] </p></div>
+<!-- l. 209 --><p class='indent'>   <a id='tailwebsitese9.html'></a> </p> 
+<div class='footer'><p>Copyright © by Soner Albayrak | All rights reserved</p></div> 
+ 
+</body>  
+</html>
