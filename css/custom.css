@@ -250,9 +250,9 @@ img {
 --------------------------------------------- */
 
 a {
-  border-bottom: 1px solid rgb(200,200,200);
+  border-bottom: 1px solid rgb(52,52,255);
   text-decoration: none;
-  color: rgb(80,80,80);
+  color: rgb(26,26,179);
   }
 
 a:hover {
