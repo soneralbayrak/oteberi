@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html lang='en-US' xml:lang='en-US'> 
-<head><title>Harriet Tubman!</title> 
+<head><title>Pi sayısını inanılmaz hassasiyetlerde kolayca hesaplamanın yolu: Chudnovsky
+kardeşlerin algoritması</title> 
 <meta charset='utf-8' /> 
 <meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
 <meta content='width=device-width,initial-scale=1' name='viewport' /> 
@@ -9,29 +10,52 @@
  <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js' type='text/javascript'></script>  
 <link href='css/custom.css' rel='stylesheet' type='text/css' /></head> 
 <body><div class='header'><p><a href='https://soneralbayrak.com/'>S.Albayrak</a> <a href='https://soneralbayrak.com/oteberi'>Anasayfa</a> <a href='https://soneralbayrak.com/oteberi/websiteli2.html'>Kategoriler</a></p></div> 
-   <!-- l. 756 --><div class='crosslinks'><p class='noindent'>[<a href='websitese49.html'>next</a>] [<a href='websitese47.html'>prev</a>] [<a href='websitese47.html#tailwebsitese47.html'>prev-tail</a>] [<a href='#tailwebsitese48.html'>tail</a>] [<a href='websitech11.html#websitese48.html'>up</a>] </p></div>
-   <h3 class='sectionHead' id='harriet-tubman'><span class='titlemark'>11.3   </span> <a id='x61-7100011.3'></a>Harriet Tubman!</h3>
+   <!-- l. 54 --><div class='crosslinks'><p class='noindent'>[<a href='websitech9.html'>next</a>] [<a href='websitese47.html'>prev</a>] [<a href='websitese47.html#tailwebsitese47.html'>prev-tail</a>] [<a href='#tailwebsitese48.html'>tail</a>] [<a href='websitech8.html#websitese48.html'>up</a>] </p></div>
+   <h3 class='sectionHead' id='pi-sayısını-inanılmaz-hassasiyetlerde-kolayca-hesaplamanın-yolu-chudnovsky-kardeslerin-algoritması'><span class='titlemark'>8.6   </span> <a id='x58-630008.6'></a>Pi sayısını inanılmaz hassasiyetlerde kolayca hesaplamanın yolu:
+Chudnovsky kardeşlerin algoritması</h3>
    <div class='sectionTOCS'>
    </div>
-<!-- l. 758 --><p class='indent'>   1822’de Maryland’de köle olarak doğan bu teyzemiz kölelikten
-kurtulmak için o yıllarda köleliğin yasak olduğu Philadelphia’ya
-kaçar. Köle karşıtı politik bir bir aktivist olup gizli gizli 13 defa
-Maryland’e gidip 70 kadar köleyi de kaçırır (elbette Maryland’deki beyazlar
-buldukları yerde öldürmek için fellik fellik kendisini aramaktadır).
-Amerikan iç savaşında gözcü ve muhbir olarak orduda görev alır, ilk
-kere iç savaşta bir kadının yönettiği bir operasyon düzenleyerek
-700’den fazla köleyi bir baskınla kurtarır. İç savaş bitip kölelik
-kalktığında da aktivist hayatına devam eder ve bu sefer de kadın hakları için
-savaşır.<span class='footnote-mark'><a href='websitese46.html#fn1x13'><sup class='textsuperscript'>1</sup></a></span><a id='x61-71001f1'></a>
-</p><!-- l. 760 --><p class='indent'>   Bu teyzemizin hayatını anlatan 2019 yapımı <span class='ecbx-1200'>Harriet </span>filmini izledim de,
-gayet başarılı bir film tavsiye ederim
+<!-- l. 56 --><p class='indent'>   Algoritma şu:<span class='footnote-mark'><a href='websitese45.html#fn1x10'><sup class='textsuperscript'>1</sup></a></span><a id='x58-63001f1'></a>
+</p><!-- l. 58 --><p class='indent'>   <img alt='PIC' src='images//pi.png' style='width:100%' />
+</p><!-- l. 60 --><p class='indent'>   Algoritmanın sadece ilk terimi bile pi’yi çok yüksek hassasiyette bulmaya
+yetiyor:
+</p><!-- l. 62 --><p class='indent'>   <img alt='PIC' src='images//piApprox.png' style='width:100%' />
+</p><!-- l. 64 --><p class='indent'>   Seri açılımında sonradan gelen terim öncekilere göre üstsel olarak
+daha küçük olduğu için de sadece 3 5 terim ile bile inanılmaz bir
+hassasiyet yakalanıyor. Aşağıdaki grafikten de anlayabileceğimiz gibi
+açılımdaki ilk 10 terimi kullanarak pi’nin yaklaşık ilk 300 rakamını elde
+edebiliyoruz:
+</p><!-- l. 66 --><p class='indent'>   <img alt='PIC' src='images//piGraph.png' style='width:100%' />
+</p><!-- l. 68 --><p class='indent'>   Chudnovsky kardeşler<span class='footnote-mark'><a href='websitese46.html#fn2x10'><sup class='textsuperscript'>2</sup></a></span><a id='x58-63002f2'></a>
+sağolsun, 2020 yılı itibariyle bu algoritma ile pi’nin 50 trilyon basamağı
+hesaplanmış durumda.
+</p><!-- l. 70 --><p class='indent'>   Bu denklemin bu kadar etkili olmasının arkasında elbette çok
+daha derin bir sebep var; bu sebepe biz burada girmeyeceğiz
+ama anahtar kelime olabilecek en büyük Heegner sayısı olan
+163.<span class='footnote-mark'><a href='#fn3x10' id='fn3x10-bk'><sup class='textsuperscript'>3</sup></a></span><a id='x58-63003f3'></a>
+Bu çok özel sayıyla karşılaştığımız bi başka nokta da bir çember
+üzerindeki 9 nokta arasına çizilen doğru parçalarının daireyi böldükleri
+parça sayısı; ilginç bir şekilde, çember üzerindeki nokta sayısı ile bu
+noktalar arasında çizilen doğru parçalarının daireyi böldükleri parça
+sayısı arasında şöyle bir ilişki var: Nokta sayısı:1,2,3,4,5,6,7,8,9,10 Parça
+sayısı:1,2,4,8,16,31,57,99,163,256 Niçin böyle olduğu ile ilgili çok güzel bir
+anlatım için şu videoyu tavsiye ederim: <a class='url' href='https://youtu.be/K8P8uFahAgc'><span class='ectt-1200'>https://youtu.be/K8P8uFahAgc</span></a>.
+</p><!-- l. 75 --><p class='indent'>   163 sayısı ile ilgili son bir ilginç bilgi de şu: Heegner sayıları ile neredeyse
+bir tamsayıya eşit olan üstsel sayılar yazılabiliyor. İngilizce almost integer
+denilen bu sayıların en büyüğü de 163 ile oluşturuluyor:
+                                                                         
+
+                                                                         
+</p><!-- l. 77 --><p class='indent'>   <img alt='PIC' src='images//almostInteger.png' style='width:100%' />
                                                                          
 
                                                                          
 </p>
-   <div class='footnotes'><!-- l. 758 --><p class='indent'>     <span class='footnote-mark'><a href='websitese46.html#fn1x13-bk'><sup class='textsuperscript'>1</sup></a></span><span class='ecrm-1000'>Daha fazla detay için: </span><a class='url' href='https://en.wikipedia.org/wiki/Harriet_Tubman'><span class='ectt-1000'>https://en.wikipedia.org/wiki/Harriet_Tubman</span></a></p>  </div>
-<!-- l. 763 --><div class='crosslinks'><p class='noindent'>[<a href='websitese49.html'>next</a>] [<a href='websitese47.html'>prev</a>] [<a href='websitese47.html#tailwebsitese47.html'>prev-tail</a>] [<a href='websitese48.html'>front</a>] [<a href='websitech11.html#websitese48.html'>up</a>] </p></div>
-<!-- l. 763 --><p class='indent'>   <a id='tailwebsitese48.html'></a> </p> 
+   <div class='footnotes'><!-- l. 56 --><p class='indent'>     <span class='footnote-mark'><a href='websitese45.html#fn1x10-bk'><sup class='textsuperscript'>1</sup></a></span><a class='url' href='https://en.wikipedia.org/wiki/Chudnovsky_algorithm'><span class='ectt-1000'>https://en.wikipedia.org/wiki/Chudnovsky_algorithm</span></a></p>
+<!-- l. 68 --><p class='indent'>   <span class='footnote-mark'><a href='websitese46.html#fn2x10-bk'><sup class='textsuperscript'>2</sup></a></span><a class='url' href='https://en.wikipedia.org/wiki/Chudnovsky_brothers'><span class='ectt-1000'>https://en.wikipedia.org/wiki/Chudnovsky_brothers</span></a></p>
+<!-- l. 70 --><p class='indent'>   <span class='footnote-mark'><a href='#fn3x10-bk' id='fn3x10'><sup class='textsuperscript'>3</sup></a></span><a class='url' href='https://en.wikipedia.org/wiki/Heegner_number'><span class='ectt-1000'>https://en.wikipedia.org/wiki/Heegner_number</span></a></p>                      </div>
+<!-- l. 1 --><div class='crosslinks'><p class='noindent'>[<a href='websitech9.html'>next</a>] [<a href='websitese47.html'>prev</a>] [<a href='websitese47.html#tailwebsitese47.html'>prev-tail</a>] [<a href='websitese48.html'>front</a>] [<a href='websitech8.html#websitese48.html'>up</a>] </p></div>
+<!-- l. 1 --><p class='indent'>   <a id='tailwebsitese48.html'></a> </p> 
 <div class='footer'><p>Copyright © by Soner Albayrak | All rights reserved</p></div> 
  
 </body>  
